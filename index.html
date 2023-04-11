@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Crypto Images</title>
+</head>
+<body>
+    <div id="app">Pas de rendu de l'application</div>
+    <script crossorigin src="https://unpkg.com/react@18.2.0/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18.2.0/umd/react-dom.development.js"></script>
+    <script>
+    const App = () => {
+        return React.createElement(
+            "div",
+            {},
+            React.createElement("h1", {}, "Crypto App")
+        );
+    };
+    const container = document.getElementById("app");
+    const root = ReactDOM.createRoot(container);
+    root.render(React.createElement(App));
+    </script>
+</body>
+</html>
